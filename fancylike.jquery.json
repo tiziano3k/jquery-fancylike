@@ -1,8 +1,8 @@
 {
     "name": "fancylike",
     "title": "jQuery Fancylike",
-    "description": "This jQuery plugin keeps allows to create Fcacebook like button with custom graphics instead of the standard Facebook one",
-    "version": "0.0.4",
+    "description": "This jQuery plugin allows to create Facebook like button with custom graphics",
+    "version": "0.0.5",
     "keywords": ["facebook", "like", "button", "custom"],
     "author": {
         "email": "tiziano.treccani@gmail.com",
@@ -18,5 +18,5 @@
     "docs": "https://github.com/openproj/jquery-fancylike",
     "homepage": "https://github.com/openproj/jquery-fancylike",
     "bugs": "https://github.com/openproj/jquery-fancylike/issues",
-    "download": "https://github.com/openproj/jquery.fancylike/archive/jquery.fancylike-0.0.4.zip"
+    "download": "https://github.com/openproj/jquery.fancylike/archive/jquery.fancylike-0.0.5.zip"
 }

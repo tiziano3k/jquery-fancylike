@@ -1,6 +1,6 @@
 /*
  * jQuery Fancylike plugin
- * @version: 0.0.4
+ * @version: 0.0.5
  * @release: 2013-08-19
  *
  * Copyright 2013, Tiziano Treccani<tiziano.treccani@gmail.com>
