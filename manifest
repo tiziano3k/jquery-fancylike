@@ -18,5 +18,5 @@
     "docs": "https://github.com/openproj/jquery-fancylike",
     "homepage": "https://github.com/openproj/jquery-fancylike",
     "bugs": "https://github.com/openproj/jquery-fancylike/issues",
-    "download": "https://github.com/jcubic/jquery.fancylike/releases/jquery.fancylike-{{V}}.zip",
+    "download": "https://github.com/jcubic/jquery.fancylike/releases/jquery.fancylike-{{V}}.zip"
 }
