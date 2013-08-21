@@ -4,7 +4,7 @@
  * @release: 2013-08-19
  *
  * Copyright 2013, Tiziano Treccani<tiziano.treccani@gmail.com>
- * Dual licensed under the GPL Version 3 license.
+ * Dual licensed under the LGPL Version 3 license.
 */
 (function( $ ) {
  
