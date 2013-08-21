@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title>jQuery Fancylike test page v 0.0.2</title>
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="jquery.fancylike.js"></script>
+	
+	<style type="text/css">
+	.fancylike-fb-like {
+		background: url('img/custom-like.jpg');
+		width: 128px;
+		height: 128px;
+	}
+	</style>
+	
+	<script type="text/javascript">
+		$(document).ready(function(){
+
+			// first example with auto-detection of URL to like (i.e. current url)
+			// only works when executes in a real website
+			$(".fancylike-fb-like").fancylike();
+
+			// second example with explicit URL to like
+			$("img").fancylike({
+				page_url : "https://github.com/fukamachi83"
+			});
+		});
+	</script>
+	
+  </head>
+  <body>
+	<div class="fancylike-fb-like"></div>
+
+	<img src="img/32-Facebook-Like-21.png" />
+	
+  </body>
+</html>
