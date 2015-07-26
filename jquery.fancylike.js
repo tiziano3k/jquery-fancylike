@@ -1,9 +1,10 @@
 /*
  * jQuery Fancylike plugin
- * @version: 0.0.6
+ * @version: 0.0.7
  * @release: 2013-08-19
  *
  * Copyright 2013, Tiziano Treccani<tiziano.treccani@gmail.com>
+ * Copyright 2015, Evgeniy Fitsner<drfits@drfits.com>
  * Dual licensed under the LGPL Version 3 license.
 */
 (function( $ ) {
@@ -12,8 +13,8 @@
 
 		var likeButtonWidth = likeButton.width();
 			var likeButtonHeight = likeButton.height();
-			var numX = Math.ceil(likeButtonWidth / opts.fb_like_width);
-			var numY = Math.ceil(likeButtonHeight / opts.fb_like_height);
+			var numX = Math.ceil(likeButtonWidth / $.fn.fancylike.defaults.fb_like_width);
+			var numY = Math.ceil(likeButtonHeight / $.fn.fancylike.defaults.fb_like_height);
 			var numTot = numX * numY;
 
 		// css normalization
@@ -27,7 +28,7 @@
 			"width" : opts.fb_like_width,
 			"height" : opts.fb_like_height,
 			"colorscheme" : "light",
-			"layout" : "button_count",
+			"layout" : "button",
 			"action" : "like",
 			"show_faces" : "false",
 			"send" : "false",
@@ -101,8 +102,8 @@
 	// Plugin defaults
 	$.fn.fancylike.defaults = {
 		fb_like_url : "http://www.facebook.com/plugins/like.php",
-		fb_like_height : 21,
-		fb_like_width : 64,
+		fb_like_height : 20,
+		fb_like_width : 47,
 		page_url : window.location.href
 	};
  
