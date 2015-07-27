@@ -1,7 +1,7 @@
 /*
  * jQuery Fancylike plugin
  * @version: 0.0.7
- * @release: 2013-08-19
+ * @release: 2015-07-27
  *
  * Copyright 2013, Tiziano Treccani<tiziano.treccani@gmail.com>
  * Copyright 2015, Evgeniy Fitsner<drfits@drfits.com>
@@ -40,6 +40,7 @@
 			"frameborder": "no"
 		}).css({
 			"border": "none",
+			"display": "block",
 			"width" : Math.floor(likeButtonWidth / numX),
 			"height" : Math.floor(likeButtonHeight / numY),
 			"-ms-filter" : "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)",
